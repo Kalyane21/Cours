@@ -1,0 +1,135 @@
+body { 
+	margin-left : 60px;
+	border : 1px;
+	background-image : url("fond1.jpg");
+	background-repeat : repeat-y repeat-x;
+}
+
+h1 {
+	color : white;
+	background-color: #4646a3 ;
+	text-align: center;
+}
+ img {
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ table {
+	 display: block;
+	 margin-top: auto;
+	 margin-left: auto;
+	 margin-right: auto;
+	background-color: #904caf;
+	color: white;
+  }
+
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(114, 25, 136);
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+	background-color: rgb(54, 14, 201);
+  }
+  
+  tr {
+	color: rgb(253, 253, 253);
+	padding: 25px;
+	text-align: center;
+  }
+  
+  tr:hover {
+	background-color: rgb(0, 0, 0);
+  }
+
+ 
+  
+
+
+  div.gallery {
+	border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
+
+  * {
+	box-sizing: border-box;
+  }
+  
+  .responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+	.responsive {
+	  width: 49.99999%;
+	  margin: 6px 0;
+	}
+  }
+  
+  @media only screen and (max-width: 500px) {
+	.responsive {
+	  width: 100%;
+	}
+  }
+  
+  .clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  } 
+
+  .d1{
+    width: 680px;
+    height: 432px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px rgb(255, 5, 89);
+    background-color: #000000;
+    background-size: contain;
+    animation: fondu 15s ease-in-out infinite both;
+}
+.conteneur{
+    max-width: 680px;
+    margin: 50px auto;
+}
+
+.d1:hover {
+    animation-play-state: paused;
+}
+@keyframes fondu{
+    25%{background-image: url("https://www.wallpapertip.com/wmimgs/61-611104_1080p-dual-monitor-wallpaper-kimi-no-na-wa.jpg");}
+    50%{background-image: url("https://images6.alphacoders.com/998/thumb-1920-998683.jpg");}
+ 
+}
